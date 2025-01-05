@@ -76,7 +76,7 @@ flowchart TB
     P -->|Yes| Q[/Display Please add students first./]
     P -->|No| R[/Search by Name or Code/]
     R --> S[/Enter Search Criteria/]
-    S --> T[Search for Student]
+    S --> T[/Search for Student/]
     T --> U{Student Found?}
     U -->|Yes| V[/Display Student Details and Study Hours/]
     U -->|No| W[/Display Student not found./]
