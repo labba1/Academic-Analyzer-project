@@ -22,14 +22,24 @@ This program is perfect for students preparing for exams or anyone who wants to 
 
 Here's what this program can do:
 
-•  Easy Input: You'll be prompted to enter your name (or student ID) and study hours for each day of the week.
-•  Organized Data: The program keeps track of all your data in an organized way internally.
-•  Clear Results: You'll see a nicely formatted table showing:
-  •  Your study hours for each day of the week.
-  •  Your total study hours for the week.
-  •  The average study hours per day across all students.
-•  Searchable: You can easily search for your study data by entering your name or student ID.
-• Handles Many Students: This program can handle data for a big class without a limit in the number of students, so you will have no problems using it with a large group of students.
+ ● Data Storage: Utilizes parallel arrays to store:
+        • Student names or IDs
+        • Study hours for each day of the week (7 days)
+ ● Calculations:
+        • Computes total study hours for the week
+        • Calculates average study hours per day
+
+ ● Search Functionality: Enables searching for specific students by name or ID.
+
+ ● Output: Displays results in a clear tabular format.
+ ● Easy Input: You'll be prompted to enter your name (or student ID) and study hours for each day of the week.
+ ● Organized Data: The program keeps track of all your data in an organized way internally.
+ ● Clear Results: You'll see a nicely formatted table showing:
+    •  Your study hours for each day of the week.
+    •  Your total study hours for the week.
+    •  The average study hours per day across all students.
+ ● Searchable: You can easily search for your study data by entering your name or student ID.
+ ● Handles Many Students: This program can handle data for a big class without a limit in the number of students, so you will have no problems using it with a large group of students.
 
 ■ Getting Started: How to Use This Program
 
@@ -63,3 +73,8 @@ Once the program is running, it will ask you for some information:
   •  After that, it will ask for the study hours for each day of the week (Day 1 to Day 7) for each student.
 3. See the Results Table: Once you’ve entered all the information, the program will display a table with all the data you entered, the total weekly study time for each student and the overall daily average.
 4. Search for a Student The program will ask if you would like to search for the data of a particular student. If you answer yes, you will be prompted to enter the name or ID of the student that you want to see the data for.
+■ Example input
+![1000008630](https://github.com/user-attachments/assets/6606ae4d-838d-4f57-a39c-0017eda6ec9c)
+
+■ Example Output
+![1000008631](https://github.com/user-attachments/assets/e00b4161-570e-4fe8-97c9-5f308deb4feb)
