@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 #include <iomanip>
 
 using namespace std;
@@ -151,3 +151,70 @@ if (!found) {
                                 studyHours[j][k] = studyHours[j + 1][k];
                             }
                         }
+   numStudents--;
+                        cout << "Student deleted successfully." << endl;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    cout << "Student with code " << searchCode << " not found." << endl;
+                }
+                break;
+            }
+
+            case 5: { // Edit Student Hours
+                if (numStudents == 0) {
+                    cout << "No students to edit." << endl;
+                    break;
+                }
+
+                int searchCode;
+                cout << "Enter the code of the student to edit: ";
+                cin >> searchCode;
+
+                bool found = false;
+                for (int i = 0; i < numStudents; ++i) {
+                    if (studentCodes[i] == searchCode) {
+                        found = true;
+
+                        cout << "Editing hours for " << students[i] << " (Code: " << studentCodes[i] << ")" << endl;
+
+                        // Adjust total sum and recalculate totals
+                        totalSum -= totals[i];
+                        totals[i] = 0;
+
+                        for (int j = 0; j < DAYS_IN_WEEK; ++j) {
+                            cout << "Enter new study hours for day " << j + 1 << " (<=24): ";
+                            int newHours;
+                            do {
+                                cin >> newHours;
+                            } while (newHours < 0 || newHours > 24);
+
+                            studyHours[i][j] = newHours;
+                            totals[i] += newHours;
+                            totalSum += newHours;
+                        }
+
+                        averages[i] = static_cast<double>(totals[i]) / DAYS_IN_WEEK;
+                        cout << "Student hours updated successfully!" << endl;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    cout << "Student with code " << searchCode << " not found." << endl;
+                }
+                break;
+            }
+
+            case 6:
+                cout << "Goodbye!" << endl;
+                return 0;
+
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+        }
+    }
+}
+
