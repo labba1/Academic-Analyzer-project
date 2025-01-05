@@ -1,1 +1,31 @@
+include <iostream>
+#include <iomanip>
 
+using namespace std;
+
+const int MAX_STUDENTS = 100;
+const int DAYS_IN_WEEK = 7;
+
+int main() {
+    string students[MAX_STUDENTS];
+    int studentCodes[MAX_STUDENTS];
+    int studyHours[MAX_STUDENTS][DAYS_IN_WEEK];
+    int totals[MAX_STUDENTS];
+    double averages[MAX_STUDENTS];
+    int numStudents = 0;
+    int totalSum = 0;
+
+    while (true) {
+        if (numStudents == 0) {
+            cout << "Welcome to the Student Study Hours Tracker!" << endl;
+            cout << "1. Add Student" << endl;
+            cout << "3. Exit" << endl;
+        } else {
+            cout << "Welcome to the Student Study Hours Tracker!" << endl;
+            cout << "1. Add Student" << endl;
+            cout << "2. See Results" << endl;
+            cout << "3. Search Student" << endl;
+            cout << "4. Delete Student" << endl;
+            cout << "5. Edit Student Hours" << endl;
+            cout << "6. Exit" << endl;
+        }
