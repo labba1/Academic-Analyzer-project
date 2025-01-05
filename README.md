@@ -38,8 +38,8 @@ Here's what this program can do:
     •  Your study hours for each day of the week.
     •  Your total study hours for the week.
     •  The average study hours per day across all students.
- ● Searchable: You can easily search for your study data by entering your name or student ID.
- ● Handles Many Students: This program can handle data for a big class without a limit in the number of students, so you will have no problems using it with a large group of students.
+    ● Searchable: You can easily search for your study data by entering your name or student ID.
+    ● Handles Many Students: This program can handle data for a big class without a limit in the number of students, so you will have no problems using it with a large group of students.
 
 ■ Getting Started: How to Use This Program
 
