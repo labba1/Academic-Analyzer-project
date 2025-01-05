@@ -29,12 +29,60 @@ int main() {
             cout << "5. Edit Student Hours" << endl;
             cout << "6. Exit" << endl;
         }
-        int choice;
+     int choice;
         cout << "Enter your choice: ";
         cin >> choice;
+
         switch (choice) {
             case 1: {
                 cout << "Enter student name: ";
                 cin >> students[numStudents];
                 cout << "Enter student code: ";
                 cin >> studentCodes[numStudents];
+
+                for (int j = 0; j < DAYS_IN_WEEK; ++j) {
+                    int hours;
+                    do {
+                        cout << "Enter study hours for day " << j + 1 << " (<=24): ";
+                        cin >> hours;
+                    } while (hours < 0 || hours > 24);
+                    studyHours[numStudents][j] = hours;
+                }
+
+                totals[numStudents] = 0;
+                for (int j = 0; j < DAYS_IN_WEEK; ++j) {
+                    totals[numStudents] += studyHours[numStudents][j];
+                    totalSum += studyHours[numStudents][j];
+                }
+                averages[numStudents] = static_cast<double>(totals[numStudents]) / DAYS_IN_WEEK;
+                numStudents++;
+                break;
+            }
+
+            case 2: {
+                if (numStudents == 0) {
+                    cout << "Please add students first." << endl;
+                    break;
+                }
+
+                cout << "Total Study Hours for All Students: " << totalSum << endl;
+                cout << "Overall Average Study Hours per Day: " << (double)totalSum / (numStudents * DAYS_IN_WEEK) << endl;
+                cout << "-------------------------------------------------------------------------------------------" << endl;
+                cout << "| Stud. Name  | Stud.Code |  Mon |  Tue |   Wed |  Thu | Fri | Sat  |  Sun  |  Tot |  Avg |" << endl;
+                cout << "-------------------------------------------------------------------------------------------" << endl;
+                for (int i = 0; i < numStudents; ++i) {
+                    cout << "| " << setw(11) << left << students[i] << " | " << setw(10) << right << studentCodes[i];
+                    for (int j = 0; j < DAYS_IN_WEEK; ++j) {
+                        cout << " | " << setw(4) << right << studyHours[i][j];
+                    }
+                    cout << " | " << setw(4) << right << totals[i] << " | " << setw(4) << fixed << setprecision(2) << right << averages[i] << " |" << endl;
+                }
+                cout << "-------------------------------------------------------------------------------------------" << endl;
+                break;
+            }
+
+            case 3: {
+                if (numStudents == 0) {
+                    cout << "Please add students first." << endl;
+                    break;
+                } 
