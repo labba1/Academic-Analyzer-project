@@ -86,3 +86,17 @@ int main() {
                     cout << "Please add students first." << endl;
                     break;
                 } 
+               string searchName;
+                int searchCode;
+                cout << "1. Search by name" << endl;
+                cout << "2. Search by code" << endl;
+                cout << "Enter your choice: ";
+                cin >> choice;
+
+                if (choice == 1) {
+                    cout << "Enter student name: ";
+                    cin >> searchName;
+                } else {
+                    cout << "Enter student code: ";
+                    cin >> searchCode;
+                }
