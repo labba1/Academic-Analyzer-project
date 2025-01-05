@@ -117,3 +117,37 @@ bool found = false;
                         break;
                     }
                 }
+if (!found) {
+                    cout << "Student not found." << endl;
+                }
+                break;
+            }
+
+            case 4: { // Delete Student
+                if (numStudents == 0) {
+                    cout << "No students to delete." << endl;
+                    break;
+                }
+
+                int searchCode;
+                cout << "Enter the code of the student to delete: ";
+                cin >> searchCode;
+
+                bool found = false;
+                for (int i = 0; i < numStudents; ++i) {
+                    if (studentCodes[i] == searchCode) {
+                        found = true;
+
+                        // Adjust total sum
+                        totalSum -= totals[i];
+
+                        // Shift students left
+                        for (int j = i; j < numStudents - 1; ++j) {
+                            students[j] = students[j + 1];
+                            studentCodes[j] = studentCodes[j + 1];
+                            totals[j] = totals[j + 1];
+                            averages[j] = averages[j + 1];
+                            for (int k = 0; k < DAYS_IN_WEEK; ++k) {
+                                studyHours[j][k] = studyHours[j + 1][k];
+                            }
+                        }
