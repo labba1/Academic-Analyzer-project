@@ -29,3 +29,12 @@ int main() {
             cout << "5. Edit Student Hours" << endl;
             cout << "6. Exit" << endl;
         }
+        int choice;
+        cout << "Enter your choice: ";
+        cin >> choice;
+        switch (choice) {
+            case 1: {
+                cout << "Enter student name: ";
+                cin >> students[numStudents];
+                cout << "Enter student code: ";
+                cin >> studentCodes[numStudents];
