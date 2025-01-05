@@ -79,3 +79,12 @@ Once the program is running, it will ask you for some information:
 
 ■ Example Output
 ![1000008631](https://github.com/user-attachments/assets/e00b4161-570e-4fe8-97c9-5f308deb4feb)
+
+■ Contributing: Help Improve This Project
+
+If you have coding experience and want to help improve this program, here's how:
+
+1. Get a Copy of the Code: Make a copy of this project by clicking the "Fork" button on GitHub.
+2. Make Your Changes: Add new features, fix bugs, or improve the code as you like.
+3. Test your Changes: Make sure that your changes don't break the program.
+4. Suggest Your Changes: Share your changes by creating a "pull request," which is a way to suggest your changes to the original project.
