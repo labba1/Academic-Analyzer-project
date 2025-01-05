@@ -45,9 +45,10 @@ Here's what this program can do:
 
 ■ What You Need
 
-• A Computer:** You need a computer where you can run this program.
-• C++ Compiler:** You will need to install a software tool called a C++ compiler that allows you to run the program. If you don't have this, don't worry, you can find installation guides on the web. You can search for *install g++* to find installation guides for the c++ compiler in your system.
-• This Program's Files:** You will also need the program's files that are hosted in this repository.
+• A Computer: You need a computer where you can run this program.
+
+• C++ Compiler: You will need to install a software tool called a C++ compiler that allows you to run the program. If you don't have this, don't worry, you can find installation guides on the web. You can search for *install g++* to find installation guides for the c++ compiler in your system.
+• This Program's Files: You will also need the program's files that are hosted in this repository.
 
 ■ Installing and Running the Program: Simple Instructions
 
