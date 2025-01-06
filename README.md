@@ -31,3 +31,23 @@ Have you ever written down your study hours in a notebook and then struggled to 
 - Find your data quickly: If there are many students using the program, you can easily search for your records by name or student ID.
 
 This program is perfect for students preparing for exams or anyone who wants to keep track of their study habits.
+## Key Features
+
+Here's what this program can do:
+
+- Data Storage: Utilizes parallel arrays to store:
+  - Student names or IDs
+  - Study hours for each day of the week (7 days)
+- Calculations:
+  - Computes total study hours for the week
+  - Calculates average study hours per day
+- Search Functionality: Enables searching for specific students by name or ID.
+- Output: Displays results in a clear tabular format.
+- Easy Input: You'll be prompted to enter your name (or student ID) and study hours for each day of the week.
+- Organized Data: The program keeps track of all your data in an organized way internally.
+- Clear Results: You'll see a nicely formatted table showing:
+  - Your study hours for each day of the week.
+  - Your total study hours for the week.
+  - The average study hours per day across all students.
+- Searchable: You can easily search for your study data by entering your name or student ID.
+- Handles Many Students: This program can handle data for a large class without a limit on the number of students.
