@@ -13,5 +13,5 @@ Prepared by: SWEG Section A (2017/25)
    - [Step-by-Step Instructions](#step-by-step-instructions)
 6. [Example Input and Output](#example-input-and-output)
 7. [Contributing](#contributing)
-
+8. [Credits](#credits)
 
