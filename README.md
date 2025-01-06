@@ -105,13 +105,29 @@ If you have coding experience and want to help improve this program, here's how:
 
 ## Credits
 
-We would like to acknowledge the following contributors for their invaluable contributions to this project:
+Here are the contributors to the "Academic-Analyzer-project" repository along with their contributions:
 
-- **labba1**: Project lead and primary developer, responsible for the core functionality and overall architecture.
-- **Arsema137**: Assisted with the development of the user interface and user experience design.
-- **BarkiZed**: Conducted extensive testing and provided quality assurance to ensure the reliability of the program.
-- **AbigiyaFikru**: Contributed to the documentation and created detailed tutorials for users.
+Arsema137 (@Arsema137)
 
-Thank you to everyone who contributed to the Academic Study Performance Analyser project!
+Contributions: Assisted with the development of the code and readme file,also contributed to the documentation.
 
+Aster-Teshome (@Aster-Teshome)
+
+Contributions: Assisted with the development of the code and flow chart,also contributed to the documentation.
+
+labba1 (@labba1)
+
+Contributions: Project lead,contributed to the documentation and Assisted with the development of the code and read me file.
+
+BarkiZed (@BarkiZed)
+
+Contributions: Assisted with the development of the code,read me file also the documentation and created detailed samples of the output for the users.
+
+AbigiyaFikru (@AbigiyaFikru)
+
+Contributions: Assisted with the development of the code,read me file and documentation, also provided quality assurance of the program.
+
+Barkotfrew (@Barkotfrew)
+
+Contributions:  Assisted with the development of the code,readme file and documentation,also contributed to create a sample of the user interface and experience design.
 
