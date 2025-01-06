@@ -58,3 +58,10 @@ Here's what this program can do:
 - A Computer: You need a computer where you can run this program.
 - C++ Compiler: You will need to install a C++ compiler that allows you to run the program. If you don't have this, you can find installation guides online.
 - This Program's Files: You will also need the program's files that are hosted in this repository.
+
+### Installing and Running the Program: Simple Instructions
+
+1. Download the Code Files: On the GitHub page for this project, find the green button that says "Code". Click on it and choose the "Download ZIP" option. This will download all of the program's files.
+2. Unzip the Files: Find the file that you downloaded, it will be called something like "study-performance-analyzer-main.zip" or similar, and extract its contents by unzipping it. You can do this by right-clicking the file and selecting "Extract All".
+3. Open a Terminal: Open the terminal app on your computer. This might be called Command Prompt, Command Line, Terminal, or other names depending on your system.
+4. Navigate to the Project Folder: In your terminal application, type the command cd followed by the path to the folder you just extracted. For example, if you have extracted the program files into a folder called study-performance-analyzer, you would type cd path/to/study-performance-analyzer.
