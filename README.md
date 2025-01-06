@@ -65,3 +65,13 @@ Here's what this program can do:
 2. Unzip the Files: Find the file that you downloaded, it will be called something like "study-performance-analyzer-main.zip" or similar, and extract its contents by unzipping it. You can do this by right-clicking the file and selecting "Extract All".
 3. Open a Terminal: Open the terminal app on your computer. This might be called Command Prompt, Command Line, Terminal, or other names depending on your system.
 4. Navigate to the Project Folder: In your terminal application, type the command cd followed by the path to the folder you just extracted. For example, if you have extracted the program files into a folder called study-performance-analyzer, you would type cd path/to/study-performance-analyzer.
+
+## How to Use the Program
+
+Once the program is running, it will ask you for some information:
+
+1. Number of Students: The program will first ask for the number of students you are tracking the information for.
+2. Student Data: For each student, the program will ask for the student name or ID, and the number of hours they studied for each day of the week (from Day 1 to Day 7).
+3. Results Table: After you've entered all the student information, the program will show you a table with your data organized in a way that makes it easy to understand and see the overall weekly study patterns.
+4. Search Data: After all the data has been entered, you can search for a particular student using their name or student ID.
+
