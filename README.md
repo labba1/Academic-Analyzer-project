@@ -51,3 +51,10 @@ Here's what this program can do:
   - The average study hours per day across all students.
 - Searchable: You can easily search for your study data by entering your name or student ID.
 - Handles Many Students: This program can handle data for a large class without a limit on the number of students.
+- ## Getting Started
+
+### What You Need
+
+- A Computer: You need a computer where you can run this program.
+- C++ Compiler: You will need to install a C++ compiler that allows you to run the program. If you don't have this, you can find installation guides online.
+- This Program's Files: You will also need the program's files that are hosted in this repository.
