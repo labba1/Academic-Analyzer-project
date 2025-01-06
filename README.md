@@ -103,3 +103,15 @@ If you have coding experience and want to help improve this program, here's how:
 3. Test Your Changes: Make sure that your changes don't break the program.
 4. Suggest Your Changes: Share your changes by creating a "pull request," which is a way to suggest your changes to the original project.
 
+## Credits
+
+We would like to acknowledge the following contributors for their invaluable contributions to this project:
+
+- **labba1**: Project lead and primary developer, responsible for the core functionality and overall architecture.
+- **Arsema137**: Assisted with the development of the user interface and user experience design.
+- **BarkiZed**: Conducted extensive testing and provided quality assurance to ensure the reliability of the program.
+- **AbigiyaFikru**: Contributed to the documentation and created detailed tutorials for users.
+
+Thank you to everyone who contributed to the Academic Study Performance Analyser project!
+
+
