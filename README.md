@@ -75,3 +75,31 @@ Once the program is running, it will ask you for some information:
 3. Results Table: After you've entered all the student information, the program will show you a table with your data organized in a way that makes it easy to understand and see the overall weekly study patterns.
 4. Search Data: After all the data has been entered, you can search for a particular student using their name or student ID.
 
+### Step-by-Step Instructions
+
+1. Enter the Number of Students: When the program starts, it will first ask you how many students you want to track the data for.
+2. Enter Each Student's Data:
+   - The program will then ask for the name or student ID of each student.
+   - After that, it will ask for the study hours for each day of the week (Day 1 to Day 7) for each student.
+3. See the Results Table: Once you’ve entered all the information, the program will display a table with all the data you entered, the total weekly study time for each student, and the overall daily average.
+4. Search for a Student: The program will ask if you would like to search for the data of a particular student. If you answer yes, you will be prompted to enter the name or ID of the student that you are looking for.
+
+## Example Input and Output
+
+### Example Input
+
+![Example Input](https://github.com/user-attachments/assets/6606ae4d-838d-4f57-a39c-0017eda6ec9c)
+
+### Example Output
+
+![Example Output](https://github.com/user-attachments/assets/e00b4161-570e-4fe8-97c9-5f308deb4feb)
+
+## Contributing
+
+If you have coding experience and want to help improve this program, here's how:
+
+1. Get a Copy of the Code: Make a copy of this project by clicking the "Fork" button on GitHub.
+2. Make Your Changes: Add new features, fix bugs, or improve the code as you like.
+3. Test Your Changes: Make sure that your changes don't break the program.
+4. Suggest Your Changes: Share your changes by creating a "pull request," which is a way to suggest your changes to the original project.
+
